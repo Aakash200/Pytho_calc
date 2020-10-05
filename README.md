@@ -36,4 +36,4 @@ View of application
 
 3) Create GUI class and extend QMainWindow class class GUI(QMainWindow):
 
-4) Add constructor and Parameter SuperClass Constructor setWindowTitle setFixedSize generalLayout centralWidget createDisplayLED createButtons Define Methods (Which will create method for Display Panel, Buttons layout and method for set/get/clear display) createDisplayLED() createButtons() setDisplayText() getDisplayText() clearDisplay()
+Add constructor and Parameter SuperClass Constructor setWindowTitle setFixedSize generalLayout centralWidget createDisplayLED createButtons Define Methods (Which will create method for Display Panel, Buttons layout and method for set/get/clear display) createDisplayLED() createButtons() setDisplayText() getDisplayText() clearDisplay()
