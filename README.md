@@ -28,3 +28,8 @@ sys.exit(app.exec_())
 
 # Calculator Using PyQt5
 
+View of application
+
+Create view.py
+
+Import following modules from PyQt5.QtCore import Qt from PyQt5.QtWidgets import QMainWindow from PyQt5.QtWidgets import QWidget from PyQt5.QtWidgets import QGridLayout from PyQt5.QtWidgets import QLineEdit from PyQt5.QtWidgets import QPushButton from PyQt5.QtWidgets import QVBoxLayout
