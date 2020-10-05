@@ -54,3 +54,10 @@ Add constructor and Parameter SuperClass Constructor setWindowTitle setFixedSize
 Add constructor def init(self, model, view): self._evaluate = model self._view = view self._connectSignals()
 
 Define Methods (Which will create method for CalculateResult Build expression Connect signals and slots.) calculateResult() buildExpression() connectSignals()
+
+# Main Class
+1) Create main.py
+
+2) Import following module import sys from PyQt5.QtWidgets import QApplication from view import GUI from model import evaluateExpression from controller import Controller
+
+3) Create Main Function def main(): pycalc = QApplication(sys.argv) view = GUI() view.show() model = evaluateExpression Controller(model=model, view=view)       sys.exit(pycalc.exec_()) if name == "main": main()
