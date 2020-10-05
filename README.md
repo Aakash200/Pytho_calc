@@ -42,3 +42,15 @@ Add constructor and Parameter SuperClass Constructor setWindowTitle setFixedSize
 
 1) Create model.py
 2) Create function for calculator's operation ERROR_MSG = 'ERROR' def evaluateExpression(expression): try: result = str(eval(expression, {}, {})) except Exception: result = ERROR_MSG return result
+
+# Controller of application
+
+1) Create controller.py
+
+2) Import following module from functools import partial
+
+3) Create Controller class class Controller:
+
+Add constructor def init(self, model, view): self._evaluate = model self._view = view self._connectSignals()
+
+Define Methods (Which will create method for CalculateResult Build expression Connect signals and slots.) calculateResult() buildExpression() connectSignals()
