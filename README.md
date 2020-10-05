@@ -30,6 +30,10 @@ sys.exit(app.exec_())
 
 View of application
 
-Create view.py
+1) Create view.py
 
-Import following modules from PyQt5.QtCore import Qt from PyQt5.QtWidgets import QMainWindow from PyQt5.QtWidgets import QWidget from PyQt5.QtWidgets import QGridLayout from PyQt5.QtWidgets import QLineEdit from PyQt5.QtWidgets import QPushButton from PyQt5.QtWidgets import QVBoxLayout
+2) Import following modules from PyQt5.QtCore import Qt from PyQt5.QtWidgets import QMainWindow from PyQt5.QtWidgets import QWidget from PyQt5.QtWidgets import QGridLayout from PyQt5.QtWidgets import QLineEdit from PyQt5.QtWidgets import QPushButton from PyQt5.QtWidgets import QVBoxLayout
+
+3) Create GUI class and extend QMainWindow class class GUI(QMainWindow):
+
+4) Add constructor and Parameter SuperClass Constructor setWindowTitle setFixedSize generalLayout centralWidget createDisplayLED createButtons Define Methods (Which will create method for Display Panel, Buttons layout and method for set/get/clear display) createDisplayLED() createButtons() setDisplayText() getDisplayText() clearDisplay()
