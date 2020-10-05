@@ -40,4 +40,5 @@ Add constructor and Parameter SuperClass Constructor setWindowTitle setFixedSize
 
 # Model of application
 
-
+1) Create model.py
+2) Create function for calculator's operation ERROR_MSG = 'ERROR' def evaluateExpression(expression): try: result = str(eval(expression, {}, {})) except Exception: result = ERROR_MSG return result
