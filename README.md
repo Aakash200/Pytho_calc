@@ -7,3 +7,8 @@ Install
 PIP install PyQt5
 
 # Test installation of PyQt5\
+
+import module
+import sys
+from PyQt5.QtWidgets import QApplication
+from PyQt5.QtWidgets import QLabel
