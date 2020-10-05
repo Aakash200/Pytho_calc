@@ -1,6 +1,6 @@
 # Pytho_calc
 
-# Python GUI using PyQt
+Python GUI using PyQt
 
 Install
 
