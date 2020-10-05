@@ -25,3 +25,6 @@ window = QWidget() window.setWindowTitle('PyQt5 App') window.setGeometry(100, 10
 
 Retain GUI Window
 sys.exit(app.exec_())
+
+# Calculator Using PyQt5
+
